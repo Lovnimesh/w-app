@@ -1,6 +1,5 @@
 import { AppBar, Box, Toolbar, styled } from "@mui/material";
-
-import LoginDialog from "./accounts/LoginDialog";
+import LoginDialog from "./accounts/LoginDialog.jsx";
 
 // we can override the style doing as follows
 const Component = styled(Box)`

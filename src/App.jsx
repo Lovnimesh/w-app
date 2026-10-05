@@ -1,11 +1,16 @@
 import "./App.css";
+import { GoogleOAuthProvider } from "@react-oauth/google";
 import Messanger from "./components/Messanger.jsx";
+
+// to implement googleAuth we have to cover our entire application from "GoogleAuthProvider"
+
+const clientId = "";
 
 function App() {
   return (
-    <div>
+    <GoogleOAuthProvider clientId={clientId}>
       <Messanger />
-    </div>
+    </GoogleOAuthProvider>
   );
 }
 
